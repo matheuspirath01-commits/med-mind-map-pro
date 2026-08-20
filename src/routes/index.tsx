@@ -65,7 +65,7 @@ export const Route = createFileRoute("/")({
       { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
-  component: SalesPage;
+  component: SalesPage,
 });
 
 const included = [
